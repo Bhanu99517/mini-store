@@ -85,7 +85,7 @@ function ScreenshotWithFallback({ src, alt, className }: { src: string; alt: str
 const ALL_APPS = [
   {
     id: 'PSS Trust APK',
-    name: 'PSS Trust',
+    name: 'PSS Trust APK',
     publisher: 'bhanutechlab.',
     publisherUrl: 'https://bhanutechlab.vercel.app/projects',
     logoUrl: "https://rdnrbgocszptdiljdcvw.supabase.co/storage/v1/object/public/shared-files/7173b553-2c48-4f0a-9338-6c5ee1e3814d/e5f97db3-aa68-45bf-b781-70b6ea48a9a3.jpg",
@@ -104,7 +104,7 @@ const ALL_APPS = [
 ];
 
 export default function AppShowcase() {
-  const [activeAppId, setActiveAppId] = useState<string>('PSS Trust');
+  const [activeAppId, setActiveAppId] = useState<string>('PSS Trust APK');
   const [isCardOpen, setIsCardOpen] = useState<boolean>(false);
   const [isAppLoading, setIsAppLoading] = useState<boolean>(false);
   
