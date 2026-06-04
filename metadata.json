@@ -1,0 +1,6 @@
+{
+  "name": "APK Downloader & Installer",
+  "description": "Direct link to download the APK file with clear, step-by-step installation instructions for Android users.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
