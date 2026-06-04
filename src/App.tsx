@@ -9,7 +9,7 @@ function Header() {
           <div className="relative flex h-8 w-8 items-center justify-center rounded-lg bg-blue-500 text-white shadow-sm transition-transform duration-300 hover:scale-105 overflow-hidden">
             <img 
               src="https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=80&auto=format&fit=crop&q=80" 
-              alt="Nexus App Icon" 
+              alt="mini store" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
             />
