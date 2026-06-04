@@ -85,7 +85,7 @@ function ScreenshotWithFallback({ src, alt, className }: { src: string; alt: str
 const ALL_APPS = [
   {
     id: 'PSS Trust',
-    name: 'PSS Trust APK',
+    name: 'PSS Trust',
     publisher: 'bhanutechlab.',
     publisherUrl: 'https://bhanutechlab.vercel.app/projects',
     logoUrl: "https://rdnrbgocszptdiljdcvw.supabase.co/storage/v1/object/public/shared-files/7173b553-2c48-4f0a-9338-6c5ee1e3814d/e5f97db3-aa68-45bf-b781-70b6ea48a9a3.jpg",
@@ -336,7 +336,7 @@ export default function AppShowcase() {
                 <div className="h-14 w-14 sm:h-16 sm:w-16 rounded-[14px] overflow-hidden border border-slate-200/50 bg-slate-100 select-none shrink-0 shadow-xs group-hover:scale-[1.03] transition-all duration-300 flex">
                   <ImageWithFallback 
                     src={app.logoUrl} 
-                    alt={`${app.name} design logo`} 
+                    alt={`${app.name} APK`} 
                     fallbackText={app.name}
                     className="w-full h-full object-cover aspect-square" 
                   />
@@ -420,7 +420,7 @@ export default function AppShowcase() {
                   <div className="relative h-16 w-16 sm:h-20 sm:w-20 md:h-24 md:w-24 rounded-[16px] sm:rounded-[22px] shadow-[0_12px_32px_rgba(0,0,0,0.06)] flex items-center justify-center shrink-0 border border-slate-200/60 overflow-hidden bg-slate-100">
                     <ImageWithFallback 
                       src={activeApp.logoUrl} 
-                      alt={`${activeApp.name} App Design Logo`} 
+                      alt={`${activeApp.name} APK`} 
                       fallbackText={activeApp.name}
                       className="w-full h-full object-cover aspect-square font-extrabold" 
                     />
