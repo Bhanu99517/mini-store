@@ -100,7 +100,26 @@ const ALL_APPS = [
       { id: 3, img: "https://images.unsplash.com/photo-1626379616459-b2ce1d9decbc?w=500&auto=format&fit=crop&q=80" },
       { id: 4, img: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=500&auto=format&fit=crop&q=80" }
     ]
-  }
+  },
+  {
+    id: 'Share Drop APK',
+    name: 'Share Drop APK',
+    publisher: 'bhanutechlab.',
+    publisherUrl: 'https://bhanutechlab.vercel.app/projects',
+    logoUrl: "https://rdnrbgocszptdiljdcvw.supabase.co/storage/v1/object/public/shared-files/7173b553-2c48-4f0a-9338-6c5ee1e3814d/e5f97db3-aa68-45bf-b781-70b6ea48a9a3.jpg",
+    downloads: '10+',
+    size: '4.5 MB',
+    apkUrl: 'https://rdnrbgocszptdiljdcvw.supabase.co/storage/v1/object/public/shared-files/7173b553-2c48-4f0a-9338-6c5ee1e3814d/07dffb63-b17e-40cc-b437-c14a22cf81a8.apk',
+    qrCodeUrl: 'https://rdnrbgocszptdiljdcvw.supabase.co/storage/v1/object/public/shared-files/7173b553-2c48-4f0a-9338-6c5ee1e3814d/8c2507d9-ebdf-43c0-abbf-83c2f66ac6d3.png',
+    description: 'Share Drop is a secure peer-to-peer file sharing app that allows users to quickly and easily transfer files between devices without the need for cloud storage. With end-to-end encryption and a simple interface, Share Drop makes it easy to share photos, videos, documents, and more with friends and family.',
+    slides: [
+      { id: 1, img: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=500&auto=format&fit=crop&q=80" },
+      { id: 2, img: "https://images.unsplash.com/photo-1614850523459-c2f4c699c52e?w=500&auto=format&fit=crop&q=80" },
+      { id: 3, img: "https://images.unsplash.com/photo-1626379616459-b2ce1d9decbc?w=500&auto=format&fit=crop&q=80" },
+      { id: 4, img: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?w=500&auto=format&fit=crop&q=80" }
+    ]
+  },
+
 ];
 
 export default function AppShowcase() {
